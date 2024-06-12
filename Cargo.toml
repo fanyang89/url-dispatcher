@@ -4,11 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-anyhow = { version = "1.0.86", features = ["backtrace"] }
 clap = { version = "4.5.7", features = ["derive"] }
 config = { version = "0.14.0", features = ["indexmap", "preserve_order"] }
 homedir = "0.2.1"
 regex = "1.10.5"
-thiserror = "1.0.61"
 serde = { version = "1.0.203", features = ["derive"] }
 link_args = "0.6.0"
