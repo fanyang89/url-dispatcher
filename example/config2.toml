@@ -1,0 +1,12 @@
+[browsers]
+
+[browsers.chrome]
+path = '''C:\Program Files\Google\Chrome\Application\chrome.exe'''
+args = ["--profile-directory=Default"]
+
+[browsers.edge]
+path = '''C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'''
+args = ["--profile-directory=Default"]
+
+[general]
+rules = [{ re = "https?://192.168.*", to = "chrome" }, { to = "edge" }]
